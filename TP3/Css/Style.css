@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #100420;
+}
+
+.male{
+    background-color: yellow;
+    width: 250px;
+    height: 250px;
+}
+
+.Coi {
+    background-color: greenyellow;
+    border-radius: 100%;
+    padding: 20px;
+}
+
+.noC {
+    background-color: red;
+    border-radius: 100%;
+    padding: 20px;
+}
+
+
+.female{
+    background-color: green;
+    width: 250px;
+    height: 250px;
+}
+
+.contenedor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin-top: 200px;
+}
+
+/*#map{
+    height:280px !important;
+    width: 280px !important;
+}
+*/ 

@@ -1,0 +1,31 @@
+<!--
+Consignas: generar un return ,  mostrar nombre, apellido, coordenadas latiutud y longitud y foto. 
+fondo: verde (women), amarillo (male). 
+
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Css/Style.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
+    <title>Usuario Random</title>
+
+</head>
+<body>
+    <div class="search" id="search">
+        <button onclick="traaerApi()" >Buscar</button>
+    </div>
+    <div class="contenedor">
+        <div class="ranUser-container" id="randoUser"></div>
+        <div id="buttonContainer"></div>
+        <div class="rickAndMorty-container" id="rickAndMorty"></div>
+    </div>
+    <div id="map"></div>
+</body>
+<script src="Js/Tp3.js"></script>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+</html>
